@@ -1,0 +1,11 @@
+This is for updating gh-pages from master
+
+git add .
+git status
+git commit -m 'something'
+git push origin master
+
+git checkout gh-pages  // changing branch
+git rebase master
+git push origin gh-pages
+git checkout master
